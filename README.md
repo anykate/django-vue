@@ -1,3 +1,5 @@
+[WriteUp for this project](https://medium.com/@anykate/integrate-django-with-vue-js-3-0-or-later-603d595e61f5)
+
 # Project setup
 1. Clone this repository
 2. Follow the steps (in order as listed below):
