@@ -1,0 +1,15 @@
+.idea/
+.vscode/
+.atom/
+__pycache__/
+migrations/
+node_modules/
+env/
+venv/
+static_cdn/
+media/photos
+dist/
+*.env
+*.pyc
+*lock.json
+*.sqlite3
