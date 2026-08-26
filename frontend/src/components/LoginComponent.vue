@@ -3,10 +3,6 @@ import Cookies from "universal-cookie";
 import { reactive, onMounted } from "vue";
 import { useRouter } from 'vue-router'
 
-defineProps({
-  msg: String,
-})
-
 const cookies = new Cookies()
 const router = useRouter()
 
@@ -56,8 +52,6 @@ onMounted(() => {
 </script>
 
 <template>
-  <h1 class="text-center">{{ msg }}</h1>
-
   <form @submit.prevent="handleSubmit" autocomplete="false">
     <div class="mb-3">
       <label for="exampleInputUsername1" class="form-label">Username</label>
